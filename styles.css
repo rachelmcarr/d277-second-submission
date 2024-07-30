@@ -1,0 +1,432 @@
+/* ELEMENTS*/
+
+body {
+    background-color: D6EFD8;
+    padding: 15px;
+    margin: 15px;
+}
+hr {
+    border-style: dotted none none;
+    height: 0px;
+    width: 20%;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+    text-transform: uppercase;
+}
+h1{color: #1A5319;
+    font-family: "century gothic";
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+h3 {color: 1A5319;
+    font-family: "century gothic";
+    font-size: 20px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+p, header, a, li, table, caption, form {
+    font-family: "century gothic";
+    color: #1A5319;
+    text-transform: uppercase;
+}
+
+ol {
+    font-family: "century gothic";
+    color: #1A5319;
+    text-transform: uppercase;
+    position: relative;
+    left: 140px;
+}
+
+input[type=text], input[type=email], textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "century gothic";
+    text-transform: uppercase;
+  }
+
+  button {
+    width: 100%;
+    background-color: #508D4E;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "century gothic";
+    text-transform: uppercase;
+  }
+  
+  button:hover {
+    background-color: #1A5319;
+  }
+
+  .texassite {
+    position: absolute;
+    left: 800px;
+}
+
+.austinsite, .bmtsite, .houstonsite {
+    position: relative;
+    left: 800px;
+    top: 35px;
+}
+
+/*ASIDE*/
+
+aside {
+    float: right;
+    width: 150px;
+    height: auto;
+    border: 1px solid; 
+    border-width: 1px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*TABLE*/
+
+table {
+    position: absolute;
+    float: right;
+    right: 350px;
+    bottom: 575px;
+    border: 1px solid;
+    width: 25%;
+}
+
+th, td {
+    border: 1px solid;
+    width: 25%; 
+}
+
+/*NAV*/
+
+nav {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+nav a {
+    color: #1A5319;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+.home:hover, .austin:hover, .beaumont:hover, .houston:hover, .contact:hover {
+    font-weight: bold;
+    color: #1A5319;
+}
+  
+/*LISTS*/
+
+.ul {
+    text-decoration-line: underline;
+    position: relative;
+    left: 100px;
+   
+}
+
+#ul2 {
+    text-decoration-line: underline;;
+}
+
+.todo {
+    position: absolute;
+    left: 1050px;
+    bottom: 560px;
+}
+
+.todotitle {
+    position: relative;
+    left: 1025px;
+    bottom: 120px;
+    font-weight: bold;
+}
+
+.bmtinfo {
+    position: relative;
+    top: 50px;
+}
+
+/*IMAGES*/
+
+
+.bluebonnets {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+ }
+ 
+.flag {
+    display: block;
+    width: 60%;
+    height: auto;
+    float: right;
+    position: relative;
+    left: 658px; 
+    bottom: 514px;
+ }
+
+.austinsky {
+    position: relative;
+    width: 40%;
+    height: auto;
+
+ }
+
+.austinsky2 {
+    position: relative;
+    height: 60%;
+    width: auto;
+    left: 100px;
+ }
+
+.beaumontimg {
+   
+    position: relative;
+    width: 40%;
+    height: auto;
+    top: 100px; 
+}
+
+.gusher {
+    display: block;
+    width: 75%;
+    height: auto;
+    position: relative;
+    left: 850px;
+    bottom: 450px;
+
+}
+
+.houstonsky {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: auto;
+}
+ 
+.nasa {
+    display: block;
+    width: 85%;
+    height: auto;
+    position: relative;
+    left: 850px;
+    bottom: 550px;
+}
+
+.bonnetoverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1A5319;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+
+
+.bonnettext {
+    white-space: wrap; 
+    color: #D6EFD8;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: "century gothic";
+    text-transform: uppercase;
+  }
+
+.bonnetcontainer {
+    position: relative;
+    width: 50%;
+  }
+ 
+
+.bonnetcontainer:hover .bonnetoverlay {
+    height: 100%;
+  }
+
+.flagoverlay {
+    position: relative;
+    bottom: 1066px;
+    left: 1025px;
+    right: 0;
+    background-color: #1A5319;
+    overflow: hidden;
+    width: 60%;
+    height: 0;
+    transition: .5s ease;
+  }
+
+
+.flagtext {
+    white-space: wrap; 
+    color: #D6EFD8;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: "century gothic";
+    text-transform: uppercase;
+  }
+
+.flagcontainer {
+    position: relative;
+    width: 50%;
+  }
+ 
+
+.flagcontainer:hover .flagoverlay {
+    height: 65%;
+  }
+  
+
+.gusheroverlay {
+    position: relative;
+    bottom: 998px;
+    left: 850px;
+    right: 0;
+    background-color: #1A5319;
+    overflow: hidden;
+    width:75%;
+    height: 0;
+    transition: .5s ease;
+  }
+
+
+.gushertext {
+    white-space: wrap; 
+    color: #D6EFD8;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: "century gothic";
+    text-transform: uppercase;
+  }
+
+.gushercontainer {
+    position: relative;
+    width: 50%;
+  }
+ 
+
+.gushercontainer:hover .gusheroverlay {
+    height: 62%;
+  }
+
+.houstonoverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1A5319;
+    overflow: hidden;
+    width: 90%;
+    height:0;
+    transition: .5s ease;
+  }
+
+
+.houstontext {
+    white-space: wrap; 
+    color: #D6EFD8;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: "century gothic";
+    text-transform: uppercase;
+  }
+
+.houstoncontainer {
+    position: relative;
+    width: 50%;
+  }
+ 
+
+.houstoncontainer:hover .houstonoverlay {
+    height: 100%;
+  }
+
+.nasaoverlay {
+    position: relative;
+    bottom: 1070px;
+    left: 850px;
+    right: 0;
+    background-color: #1A5319;
+    overflow: hidden;
+    width: 85%;
+    height: 0;
+    transition: .5s ease;
+  }
+
+
+.nasatext {
+    white-space: wrap; 
+    color: #D6EFD8;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: "century gothic";
+    text-transform: uppercase;
+  }
+
+.nasacontainer {
+    position: relative;
+    width: 50%;
+  }
+ 
+
+.nasacontainer:hover .nasaoverlay {
+    height: 62%;
+  }
+  
+  
+
+
+ /* colors: https://colorhunt.co/palette/d6efd880af81508d4e1a5319 */
+
+ /* nav: https://codepen.io/WhisnuYs/pen/XWdpdGP */

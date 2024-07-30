@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1 id="ul2">Contact Us</h1>
+    </header>
+    <nav>
+        <a href="index.html" class="home">Home</a>
+        <a href="austin.html" class="austin">Austin</a>
+        <a href="beaumont.html" class="beaumont">Beaumont</a>
+        <a href="houston.html" class="houston">Houston</a>
+        <a href="contactus.html" class="contact">Contact Us</a>
+    </nav><br>
+    <section>
+    <form action="mailto: rcar552@wgu.edu" method:="post" enctype="text/plain">
+        <label>First Name:</label>
+        <input type="text" name="firstName" placeholder="First Name"><br>
+        <label>Last Name:</label>
+        <input type="text" name="lastName" placeholder="Last Name"><br>
+        <label>Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email"><br>
+        <label>Confirm Email:</label>
+        <input type="email" id="emailConf" name="emailConf" placeholder="Confirm Email"> <br>
+        <label>Message:</label><br>
+        <textarea name="yourMessage" cols="30" rows="10" placeholder="Type your message here."></textarea><br>
+       <br> <button onclick="verifyEmail()";>Submit</button>
+    </form>
+    </section>
+</body>
+</form>
